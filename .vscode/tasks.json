@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "cmake",
+      "label": "CMake: Build",
+      "command": "build",
+      "targets": ["ALL_BUILD"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "detail": "Builds the ALL_BUILD target for Visual Studio"
+    }
+  ]
+}
